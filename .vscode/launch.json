@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "debugable",
+            "type": "cuda-gdb",
+            "request": "launch",
+            "program": "${workspaceFolder}/builds/debugable",
+            "args": "",
+            "stopAtEntry": false
+        },
+        {
+            "name": "not debugable",
+            "type": "cuda-gdb",
+            "request": "launch",
+            "program": "${workspaceFolder}/builds/not_debugable",
+            "args": "",
+            "stopAtEntry": false
+        }
+    ]
+}
